@@ -101,6 +101,7 @@ time, .tech-line { color: var(--amber); font: 600 .8rem "IBM Plex Mono", monospa
 .addresses p { margin-bottom: 6px; }
 footer { display: flex; justify-content: space-between; width: min(calc(100% - 48px), var(--max-width)); margin: 0 auto; padding: 30px 0; color: var(--muted); font-size: .8rem; }
 footer span:first-child { color: var(--ink); font-family: "Space Grotesk", sans-serif; font-weight: 700; letter-spacing: .15em; }
+.footer-name { white-space: nowrap; }
 
 @keyframes hero-enter { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
